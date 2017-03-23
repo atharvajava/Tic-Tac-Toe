@@ -1,0 +1,34 @@
+#gameboard{
+  width:366px;
+}
+.row{
+  clear:both;
+  overflow:hidden;
+}
+.square{
+  float:left;
+  width:120px;
+  height:120px;
+  border:1px solid black;
+  font-size:50px;
+}
+
+h1,h2{
+  color:white;
+}
+body{
+background: -moz-linear-gradient(45deg, #99DAFF 0%, #008080 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #99DAFF), color-stop(100%, #008080)); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, #99DAFF 0%, #008080 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, #99DAFF 0%, #008080 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, #99DAFF 0%, #008080 100%); /* ie10+ */
+background: linear-gradient(45deg, #99DAFF 0%, #008080 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#99DAFF',GradientType=1 );
+}
+
+.ex{
+  background-color:blue;
+}
+.oh{
+  background-color:red;
+}
